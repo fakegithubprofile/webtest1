@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+nav button {
+    margin-left: 10px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.profile-picture {
+    max-width: 200px;
+    margin-right: 20px;
+}
+.bio {
+    max-width: 600px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social-media a {
+    margin: 0 10px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
